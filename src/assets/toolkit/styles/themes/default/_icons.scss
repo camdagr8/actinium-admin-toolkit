@@ -1033,6 +1033,10 @@ $icons: (
     &.jumbo { font-size: 144px; }
 }
 
+i.collapse-toggle {
+    font-size: 16px;
+}
+
 @each $p, $c in $icons {
     $i: index($icons, ($p $c));
     .#{$p}:before,

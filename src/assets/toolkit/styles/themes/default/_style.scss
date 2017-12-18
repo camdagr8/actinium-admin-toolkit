@@ -1,15 +1,23 @@
 // Variables
 @import 'variables';
 
-// Typography
-@import 'type';
-
 // Colors
 @import 'colors';
+
+// Layout
+@import 'layout';
+
+// Typography
+@import 'type';
 
 // Icons
 @import 'icons';
 
-
 // Catalyst
 @import 'catalyst/catalyst';
+
+// Admin
+@import 'admin/admin-container';
+@import 'admin/admin-topbar';
+@import 'admin/admin-sidebar';
+@import 'admin/admin-ribbon';
